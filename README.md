@@ -7,15 +7,15 @@ This project was mainly built as a **learning exercise** to understand how Sprin
 
 ---
 
-## 🚀 Features
-
-- ✅ User authentication & authorization (**Spring Security**)
-- ✅ CRUD operations for **Journal Entries**
-- ✅ One-to-Many relationship: **1 User → Many Journal Entries**
-- ✅ Weather API integration (sample usage in greetings)
-- ✅ Email service integration (for sending emails to followers/newsletter use cases)
-- ✅ Scheduled jobs (cron jobs)
-- ✅ MongoDB Atlas integration for cloud storage
+     ## 🚀 Features
+     
+     - ✅ User authentication & authorization (**Spring Security**)
+     - ✅ CRUD operations for **Journal Entries**
+     - ✅ One-to-Many relationship: **1 User → Many Journal Entries**
+     - ✅ Weather API integration (sample usage in greetings)
+     - ✅ Email service integration (for sending emails to followers/newsletter use cases)
+     - ✅ Scheduled jobs (cron jobs)
+     - ✅ MongoDB Atlas integration for cloud storage
 
 ---
 
