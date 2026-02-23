@@ -7,7 +7,7 @@ This project was mainly built as a **learning exercise** to understand how Sprin
 
 ---
 
-     ## 🚀 Features
+     🚀 Features
      
      - ✅ User authentication & authorization (**Spring Security**)
      - ✅ CRUD operations for **Journal Entries**
@@ -33,28 +33,28 @@ This project was mainly built as a **learning exercise** to understand how Sprin
 ---
 
 ## 📂 Project Structure
-src/main/java/com/example/journalApp
-│
-├── Controller
-│ ├── JournalEntryController # CRUD operations for journals
-│ ├── PublicController # Public endpoints (signup, health check)
-│ └── UserController # User management + Weather API integration
-│
-├── entities
-│ ├── JournalEntry # Journal entity
-│ └── Users # User entity
-│
-├── repository
-│ ├── JournalEntryRepo # MongoRepository for journals
-│ ├── UserRepo # MongoRepository for users
-│ └── UserRepoImpl # Custom queries using MongoTemplate
-│
-├── services
-│ ├── EmailService # Email integration
-│ ├── JournalEntryService # Journal business logic
-│ ├── UserService # User business logic
-│ ├── UserDetailsServiceImpl # Spring Security integration
-│ └── WeatherService # Weather API integration
+     src/main/java/com/example/journalApp
+     │
+     ├── Controller
+     │ ├── JournalEntryController # CRUD operations for journals
+     │ ├── PublicController # Public endpoints (signup, health check)
+     │ └── UserController # User management + Weather API integration
+     │
+     ├── entities
+     │ ├── JournalEntry # Journal entity
+     │ └── Users # User entity
+     │
+     ├── repository
+     │ ├── JournalEntryRepo # MongoRepository for journals
+     │ ├── UserRepo # MongoRepository for users
+     │ └── UserRepoImpl # Custom queries using MongoTemplate
+     │
+     ├── services
+     │ ├── EmailService # Email integration
+     │ ├── JournalEntryService # Journal business logic
+     │ ├── UserService # User business logic
+     │ ├── UserDetailsServiceImpl # Spring Security integration
+     │ └── WeatherService # Weather API integration
 
  
 ---
